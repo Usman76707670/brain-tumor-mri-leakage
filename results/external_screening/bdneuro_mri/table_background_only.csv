@@ -1,0 +1,3 @@
+Background-only classifier,No tumor vs tumor AUC,Balanced accuracy
+"trained on BDNeuro train+val, tested on BDNeuro test",0.9729,0.854
+"trained on Sartaj (patient split), tested on all BDNeuro",0.8875,0.7737

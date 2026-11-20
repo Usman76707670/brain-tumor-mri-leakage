@@ -1,0 +1,31 @@
+Comparison,Seed,Difference (points),95% CI,Only primary correct,Only other correct,Exact McNemar p
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",42,1.61,0.48 to 2.89,13,3,0.0213
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",43,0.0,-1.12 to 1.12,7,7,1.0
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",44,0.0,-0.80 to 0.80,4,4,1.0
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",45,0.0,-1.12 to 1.12,6,6,1.0
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",pooled (images as units),0.4,-0.24 to 1.04,,,sign-flip p = 0.2669
+"Equal fusion, no TTA minus ResNet101, no TTA",42,0.96,-0.48 to 2.41,13,7,0.2632
+"Equal fusion, no TTA minus ResNet101, no TTA",43,-0.16,-1.77 to 1.44,13,14,1.0
+"Equal fusion, no TTA minus ResNet101, no TTA",44,2.41,0.96 to 3.85,19,4,0.0026
+"Equal fusion, no TTA minus ResNet101, no TTA",45,0.48,-1.12 to 2.09,15,12,0.7011
+"Equal fusion, no TTA minus ResNet101, no TTA",pooled (images as units),0.92,0.08 to 1.77,,,sign-flip p = 0.0416
+"Equal fusion, no TTA minus ConvNeXt-T, no TTA",42,3.05,1.28 to 4.98,26,7,0.0013
+"Equal fusion, no TTA minus ConvNeXt-T, no TTA",43,0.0,-1.77 to 1.93,18,18,1.0
+"Equal fusion, no TTA minus ConvNeXt-T, no TTA",44,1.93,0.32 to 3.69,20,8,0.0357
+"Equal fusion, no TTA minus ConvNeXt-T, no TTA",45,0.96,-0.64 to 2.73,18,12,0.3616
+"Equal fusion, no TTA minus ConvNeXt-T, no TTA",pooled (images as units),1.48,0.36 to 2.61,,,sign-flip p = 0.0120
+"Equal fusion, no TTA minus EfficientNet-B0, no TTA",42,0.8,-0.96 to 2.57,19,14,0.4869
+"Equal fusion, no TTA minus EfficientNet-B0, no TTA",43,0.48,-1.44 to 2.41,20,17,0.7428
+"Equal fusion, no TTA minus EfficientNet-B0, no TTA",44,0.64,-1.28 to 2.57,21,17,0.6271
+"Equal fusion, no TTA minus EfficientNet-B0, no TTA",45,-0.48,-2.57 to 1.44,19,22,0.7552
+"Equal fusion, no TTA minus EfficientNet-B0, no TTA",pooled (images as units),0.36,-0.92 to 1.65,,,sign-flip p = 0.6356
+"Equal fusion, no TTA minus ResNet50, no TTA",42,2.09,0.48 to 3.69,19,6,0.0146
+"Equal fusion, no TTA minus ResNet50, no TTA",43,1.28,-0.48 to 3.05,19,11,0.2005
+"Equal fusion, no TTA minus ResNet50, no TTA",44,2.41,0.80 to 4.01,21,6,0.0059
+"Equal fusion, no TTA minus ResNet50, no TTA",45,0.0,-1.93 to 1.93,19,19,1.0
+"Equal fusion, no TTA minus ResNet50, no TTA",pooled (images as units),1.44,0.52 to 2.41,,,sign-flip p = 0.0033
+"Equal fusion, no TTA minus Equal fusion, TTA",42,0.0,-0.64 to 0.64,2,2,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",43,-0.48,-1.12 to 0.16,1,4,0.375
+"Equal fusion, no TTA minus Equal fusion, TTA",44,0.16,-0.48 to 0.96,3,2,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",45,-0.64,-1.28 to -0.16,0,4,0.125
+"Equal fusion, no TTA minus Equal fusion, TTA",pooled (images as units),-0.24,-0.56 to 0.08,,,sign-flip p = 0.2317

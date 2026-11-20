@@ -1,0 +1,6 @@
+{
+ "t5_test_patients": 179,
+ "t5_test_patients_also_in_trainval": 174,
+ "t5_test_images_from_leaked_patients": 461,
+ "t5_test_tumor_images_with_pid": 469
+}

@@ -1,0 +1,5 @@
+Model,All test images %,Without image(48) %
+Fusion,92.58,92.73
+Swin-V2-B,92.17,92.32
+ResNet101,91.65,91.8
+EfficientNet-B0,92.22,92.36

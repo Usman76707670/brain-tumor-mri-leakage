@@ -1,0 +1,13 @@
+model,group,n,acc_mean,acc_sd
+"ResNet101, TTA",patient only in test,8,84.38,6.25
+"ResNet101, TTA",patient also in train/val,461,97.34,0.62
+"ResNet101, TTA",no patient ID,221,86.76,3.1
+"Swin-V2-B, TTA",patient only in test,8,87.5,10.21
+"Swin-V2-B, TTA",patient also in train/val,461,97.89,0.54
+"Swin-V2-B, TTA",no patient ID,221,90.05,0.0
+"Equal fusion, TTA",patient only in test,8,87.5,10.21
+"Equal fusion, TTA",patient also in train/val,461,98.16,0.28
+"Equal fusion, TTA",no patient ID,221,90.84,0.93
+"ConvNeXt-T, TTA",patient only in test,8,71.88,6.25
+"ConvNeXt-T, TTA",patient also in train/val,461,98.37,0.52
+"ConvNeXt-T, TTA",no patient ID,221,89.93,4.35

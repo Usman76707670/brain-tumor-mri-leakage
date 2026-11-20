@@ -1,0 +1,7 @@
+image_a,label_a,image_b,label_b,hash_bits,byte_identical,pixel_identical,pixel_corr,mean_abs_diff
+Testing/glioma_tumor/image(48).jpg,Glioma,Training/meningioma_tumor/m1(111).jpg,Meningioma,2,False,False,0.9993,1.37
+Testing/glioma_tumor/image(48).jpg,Glioma,Training/meningioma_tumor/m1(168).jpg,Meningioma,0,False,False,0.9993,1.37
+Testing/glioma_tumor/image(48).jpg,Glioma,Training/meningioma_tumor/m1(192).jpg,Meningioma,2,False,False,0.9985,2.11
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(2).jpg,Meningioma,2,False,False,0.9993,1.37
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(58).jpg,Meningioma,0,False,False,0.9993,1.37
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(82).jpg,Meningioma,2,False,False,0.9985,2.11

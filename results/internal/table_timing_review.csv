@@ -1,0 +1,8 @@
+Model,Parameters (M),"ms per image, batch 1","ms per image, batch 16"
+ResNet101,42.78,11.40 ± 0.08,5.11 ± 0.02
+Swin-V2-B,86.91,35.30 ± 0.40,15.15 ± 0.50
+"Equal fusion, no TTA",129.68,47.41 ± 0.39,20.42 ± 0.27
+"Equal fusion, TTA",129.68,94.90 ± 0.86,41.26 ± 0.13
+ConvNeXt-T,27.82,5.95 ± 0.52,4.13 ± 0.02
+ResNet50,23.52,5.57 ± 0.10,3.10 ± 0.02
+EfficientNet-B0,4.01,8.06 ± 0.07,1.24 ± 0.00

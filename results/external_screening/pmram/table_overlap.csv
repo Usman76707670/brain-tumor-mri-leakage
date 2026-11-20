@@ -1,0 +1,6 @@
+Class,Images,Exact match to Sartaj,Sartaj within 5 bits,Sartaj within 8 bits,Figshare within 5 bits,Figshare within 8 bits,Near-copy of another PMRAM image (<=5 bits)
+Glioma,373,27,34,85,33,85,42
+Meningioma,363,3,20,74,4,18,119
+No Tumor,396,84,138,177,1,25,183
+Pituitary,373,186,208,221,205,216,46
+Total,1505,300,400,557,243,344,390

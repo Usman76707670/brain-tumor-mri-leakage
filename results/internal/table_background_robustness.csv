@@ -1,0 +1,10 @@
+Input,Model,Accuracy %,Tumor sensitivity,No-tumor specificity
+original,ResNet101,92.3,500/505,114/118
+original,Swin-V2-B,91.65,504/505,115/118
+original,Equal fusion,93.26,501/505,115/118
+cropped to the brain,ResNet101,91.17,495/505,114/118
+cropped to the brain,Swin-V2-B,89.09,503/505,111/118
+cropped to the brain,Equal fusion,91.49,501/505,115/118
+outer 12% frame blacked out,ResNet101,91.17,493/505,116/118
+outer 12% frame blacked out,Swin-V2-B,91.81,504/505,115/118
+outer 12% frame blacked out,Equal fusion,92.94,499/505,116/118

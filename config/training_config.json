@@ -1,0 +1,39 @@
+{
+ "split": "stratified group split 70/10/20, SPLIT_SEED 42; groups = perceptual hash within 5 bits OR same Figshare patient",
+ "seeds": [
+  42,
+  43,
+  44,
+  45
+ ],
+ "epochs": 12,
+ "batch size": 16,
+ "optimizer": "AdamW, weight decay 1e-4",
+ "learning rate": {
+  "ResNet101": 0.0001,
+  "Swin-V2-B": 5e-05,
+  "ConvNeXt-T": 0.0001,
+  "ResNet50": 0.0001,
+  "EfficientNet-B0": 0.0001
+ },
+ "scheduler": "CosineAnnealingLR, T_max = 12 epochs, eta_min = 0, stepped once per epoch",
+ "loss": "cross-entropy with label smoothing 0.1, no class weighting",
+ "input": "image opened with PIL and converted to RGB (grayscale copied to three channels); resize 256x256, centre crop 224x224, ImageNet mean/std",
+ "training augmentation (torchvision, in this order)": "Resize(256,256), CenterCrop(224), RandomHorizontalFlip(0.5), RandomRotation(10), ToTensor, Normalize",
+ "batch normalisation": "standard train/eval modes; statistics updated during training only",
+ "checkpoint selection": "highest validation accuracy; ties keep the earlier epoch (strict >)",
+ "determinism": "random, numpy and torch seeded; cudnn.deterministic = True, cudnn.benchmark = False; seeded DataLoader generator and workers",
+ "weights": {
+  "ResNet101": "torchvision IMAGENET1K_V2",
+  "Swin-V2-B": "torchvision swin_v2_b IMAGENET1K_V1",
+  "ConvNeXt-T": "torchvision IMAGENET1K_V1",
+  "ResNet50": "torchvision IMAGENET1K_V2",
+  "EfficientNet-B0": "torchvision IMAGENET1K_V1"
+ },
+ "versions": {
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91002
+ }
+}

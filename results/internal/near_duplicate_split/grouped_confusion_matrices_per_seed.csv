@@ -1,0 +1,17 @@
+Seed,True,Pred Glioma,Pred Meningioma,Pred No Tumor,Pred Pituitary
+42,Glioma,180,15,0,1
+42,Meningioma,4,181,0,1
+42,No Tumor,0,0,120,2
+42,Pituitary,0,6,0,180
+43,Glioma,183,13,0,0
+43,Meningioma,11,174,0,1
+43,No Tumor,1,0,120,1
+43,Pituitary,0,7,0,179
+44,Glioma,187,9,0,0
+44,Meningioma,8,176,2,0
+44,No Tumor,1,0,120,1
+44,Pituitary,0,8,0,178
+45,Glioma,182,14,0,0
+45,Meningioma,5,181,0,0
+45,No Tumor,0,0,120,2
+45,Pituitary,0,6,0,180

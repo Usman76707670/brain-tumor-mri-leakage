@@ -1,0 +1,3 @@
+Background-only classifier,No tumor vs tumor AUC,Balanced accuracy
+"within PMRAM, 5-fold cross-validation",0.9763,0.8984
+"trained on Sartaj (patient split), tested on PMRAM",0.9031,0.5366

@@ -1,0 +1,4 @@
+hash_bits,matches,verified,median_corr,min_corr,ties_with_different_patient
+0,1959,1949,0.9998,0.8084,0
+2,377,366,0.9998,0.7587,0
+4,14,9,0.9998,0.6362,2

@@ -1,0 +1,21 @@
+image_a,label_a,image_b,label_b,hamming
+Training/meningioma_tumor/m1(168).jpg,Meningioma,Testing/glioma_tumor/image(48).jpg,Glioma,0
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(58).jpg,Meningioma,0
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(82).jpg,Meningioma,2
+Testing/glioma_tumor/image(48).jpg,Glioma,Testing/meningioma_tumor/image(2).jpg,Meningioma,2
+Testing/glioma_tumor/image(2).jpg,Glioma,Testing/meningioma_tumor/image(13).jpg,Meningioma,2
+Training/glioma_tumor/gg (123).jpg,Glioma,Training/meningioma_tumor/m3 (152).jpg,Meningioma,2
+Training/meningioma_tumor/m1(192).jpg,Meningioma,Testing/glioma_tumor/image(48).jpg,Glioma,2
+Training/meningioma_tumor/m1(123).jpg,Meningioma,Testing/glioma_tumor/image(2).jpg,Glioma,2
+Training/meningioma_tumor/m1(111).jpg,Meningioma,Testing/glioma_tumor/image(48).jpg,Glioma,2
+Training/meningioma_tumor/m (39).jpg,Meningioma,Testing/glioma_tumor/image(73).jpg,Glioma,4
+Training/glioma_tumor/gg (116).jpg,Glioma,Training/meningioma_tumor/m3 (219).jpg,Meningioma,4
+Training/glioma_tumor/gg (805).jpg,Glioma,Training/meningioma_tumor/m (39).jpg,Meningioma,4
+Training/glioma_tumor/gg (753).jpg,Glioma,Testing/no_tumor/image(92).jpg,No Tumor,4
+Training/glioma_tumor/gg (753).jpg,Glioma,Training/no_tumor/image(67).jpg,No Tumor,4
+Training/glioma_tumor/gg (520).jpg,Glioma,Training/no_tumor/image(128).jpg,No Tumor,4
+Training/glioma_tumor/gg (188).jpg,Glioma,Training/meningioma_tumor/m3 (240).jpg,Meningioma,4
+Training/glioma_tumor/gg (123).jpg,Glioma,Training/meningioma_tumor/m3 (118).jpg,Meningioma,4
+Training/glioma_tumor/gg (122).jpg,Glioma,Training/meningioma_tumor/m3 (152).jpg,Meningioma,4
+Training/meningioma_tumor/m (150).jpg,Meningioma,Testing/no_tumor/image(88).jpg,No Tumor,4
+Training/meningioma_tumor/m (150).jpg,Meningioma,Training/no_tumor/image(63).jpg,No Tumor,4

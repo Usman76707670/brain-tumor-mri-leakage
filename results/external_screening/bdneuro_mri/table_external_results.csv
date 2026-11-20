@@ -1,0 +1,7 @@
+Model,Accuracy % mean ± SD,95% CI (images),Glioma recall %,Meningioma recall %,No Tumor recall %,Pituitary recall %,Tumor sensitivity %,No-tumor specificity %,Per-seed accuracy
+Equal fusion,95.23 ± 0.79,94.5 to 95.9,95.61,97.4,96.84,91.49,98.18,96.84,"[np.float64(96.01), np.float64(95.03), np.float64(95.66), np.float64(94.22)]"
+Swin-V2-B,94.95 ± 1.61,94.2 to 95.6,95.15,96.6,96.14,92.27,98.0,96.14,"[np.float64(96.3), np.float64(94.43), np.float64(96.16), np.float64(92.91)]"
+ResNet101,90.96 ± 1.25,90.0 to 91.8,91.97,95.77,95.39,81.83,95.93,95.39,"[np.float64(90.67), np.float64(91.75), np.float64(89.31), np.float64(92.09)]"
+EfficientNet-B0,87.13 ± 2.84,86.0 to 88.2,85.46,92.55,97.49,78.95,91.28,97.49,"[np.float64(83.63), np.float64(87.2), np.float64(90.59), np.float64(87.1)]"
+ConvNeXt-T,94.35 ± 1.41,93.6 to 95.0,96.33,97.31,93.69,88.21,98.19,93.69,"[np.float64(93.35), np.float64(92.96), np.float64(95.85), np.float64(95.24)]"
+ResNet50,87.30 ± 3.38,86.2 to 88.3,85.43,94.27,97.24,78.23,90.99,97.24,"[np.float64(91.2), np.float64(82.95), np.float64(87.49), np.float64(87.57)]"

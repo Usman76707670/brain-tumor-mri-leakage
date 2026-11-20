@@ -1,0 +1,16 @@
+Comparison,Seed,Difference (points),95% CI,Only primary correct,Only other correct,Exact McNemar p
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",42,0.58,-0.29 to 1.45,7,3,0.3438
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",43,-0.14,-1.16 to 0.87,6,7,1.0
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",44,1.01,0.14 to 2.03,9,2,0.0654
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",45,0.43,-0.29 to 1.16,5,2,0.4531
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",pooled (images as units),0.47,-0.04 to 1.01,,,sign-flip p = 0.1089
+"Equal fusion, no TTA minus ResNet101, no TTA",42,0.87,0.00 to 1.74,8,2,0.1094
+"Equal fusion, no TTA minus ResNet101, no TTA",43,2.75,1.45 to 4.20,21,2,0.0001
+"Equal fusion, no TTA minus ResNet101, no TTA",44,1.88,0.58 to 3.33,18,5,0.0106
+"Equal fusion, no TTA minus ResNet101, no TTA",45,4.49,2.90 to 6.23,33,2,0.0
+"Equal fusion, no TTA minus ResNet101, no TTA",pooled (images as units),2.5,1.70 to 3.33,,,sign-flip p = 0.0000
+"Equal fusion, no TTA minus Equal fusion, TTA",42,-0.14,-0.72 to 0.29,1,2,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",43,0.0,-0.43 to 0.43,1,1,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",44,0.0,-0.87 to 0.72,4,4,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",45,0.14,-0.29 to 0.72,2,1,1.0
+"Equal fusion, no TTA minus Equal fusion, TTA",pooled (images as units),0.0,-0.29 to 0.25,,,sign-flip p = 1.0000

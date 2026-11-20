@@ -1,0 +1,29 @@
+[seed 45 | 06:36:12] device cuda Tesla T4, torch 2.10.0+cu128, training ['resnet', 'swin']
+[seed 45 | 06:36:12] split train 2400 | val 222 | test 623
+[seed 45 | 06:36:57] resnet epoch 1/12 train_acc 0.6696 val_acc 0.8468 val_loss 0.6933
+[seed 45 | 06:37:42] resnet epoch 2/12 train_acc 0.8975 val_acc 0.9189 val_loss 0.5588
+[seed 45 | 06:38:27] resnet epoch 3/12 train_acc 0.9425 val_acc 0.9234 val_loss 0.5030
+[seed 45 | 06:39:12] resnet epoch 4/12 train_acc 0.9542 val_acc 0.9369 val_loss 0.4813
+[seed 45 | 06:39:57] resnet epoch 5/12 train_acc 0.9746 val_acc 0.9640 val_loss 0.4410
+[seed 45 | 06:40:42] resnet epoch 6/12 train_acc 0.9867 val_acc 0.9459 val_loss 0.4594
+[seed 45 | 06:41:27] resnet epoch 7/12 train_acc 0.9871 val_acc 0.9369 val_loss 0.4812
+[seed 45 | 06:42:12] resnet epoch 8/12 train_acc 0.9912 val_acc 0.9414 val_loss 0.4596
+[seed 45 | 06:42:57] resnet epoch 9/12 train_acc 0.9933 val_acc 0.9550 val_loss 0.4297
+[seed 45 | 06:43:42] resnet epoch 10/12 train_acc 0.9942 val_acc 0.9640 val_loss 0.4352
+[seed 45 | 06:44:27] resnet epoch 11/12 train_acc 0.9967 val_acc 0.9685 val_loss 0.4198
+[seed 45 | 06:45:12] resnet epoch 12/12 train_acc 0.9979 val_acc 0.9685 val_loss 0.4204
+[seed 45 | 06:45:12] resnet: kept epoch 11 (val_acc 0.9685)
+[seed 45 | 06:47:14] swin epoch 1/12 train_acc 0.8000 val_acc 0.8874 val_loss 0.6525
+[seed 45 | 06:49:04] swin epoch 2/12 train_acc 0.9437 val_acc 0.9279 val_loss 0.5155
+[seed 45 | 06:50:54] swin epoch 3/12 train_acc 0.9671 val_acc 0.9234 val_loss 0.5351
+[seed 45 | 06:52:43] swin epoch 4/12 train_acc 0.9754 val_acc 0.9595 val_loss 0.4194
+[seed 45 | 06:54:33] swin epoch 5/12 train_acc 0.9817 val_acc 0.9775 val_loss 0.4155
+[seed 45 | 06:56:23] swin epoch 6/12 train_acc 0.9888 val_acc 0.9730 val_loss 0.4094
+[seed 45 | 06:58:13] swin epoch 7/12 train_acc 0.9917 val_acc 0.9685 val_loss 0.4335
+[seed 45 | 07:00:02] swin epoch 8/12 train_acc 0.9954 val_acc 0.9595 val_loss 0.4578
+[seed 45 | 07:01:52] swin epoch 9/12 train_acc 0.9954 val_acc 0.9550 val_loss 0.4425
+[seed 45 | 07:03:42] swin epoch 10/12 train_acc 0.9967 val_acc 0.9685 val_loss 0.4223
+[seed 45 | 07:05:31] swin epoch 11/12 train_acc 0.9975 val_acc 0.9685 val_loss 0.4177
+[seed 45 | 07:07:21] swin epoch 12/12 train_acc 0.9967 val_acc 0.9685 val_loss 0.4198
+[seed 45 | 07:07:21] swin: kept epoch 5 (val_acc 0.9775)
+[seed 45 | 07:07:46] DONE

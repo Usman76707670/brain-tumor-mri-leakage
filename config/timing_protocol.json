@@ -1,0 +1,14 @@
+{
+ "GPU": "Tesla T4",
+ "PyTorch": "2.10.0+cu128",
+ "CUDA (PyTorch build)": "12.8",
+ "cuDNN": 91002,
+ "Python": "3.12.12",
+ "precision": "fp32",
+ "cudnn.benchmark": false,
+ "warm-up passes": 10,
+ "timed passes": 50,
+ "repeats": 3,
+ "synchronised": true,
+ "preprocessing included": false
+}

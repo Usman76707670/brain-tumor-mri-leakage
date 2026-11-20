@@ -1,0 +1,11 @@
+Configuration,Metric,Value (mean over seeds),95% CI
+"Equal fusion, no TTA",ECE,0.0745,0.0696 to 0.0865
+"Equal fusion, no TTA",Brier,0.0812,0.0607 to 0.1029
+"Swin-V2-B, no TTA",ECE,0.0574,0.0517 to 0.0677
+"Swin-V2-B, no TTA",Brier,0.0805,0.0581 to 0.1032
+"Equal fusion, TTA",ECE,0.068,0.0654 to 0.0813
+"Equal fusion, TTA",Brier,0.0791,0.0604 to 0.0992
+"Swin-V2-B, TTA",ECE,0.0516,0.0479 to 0.0617
+"Swin-V2-B, TTA",Brier,0.0775,0.0568 to 0.0989
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",ECE,0.017,0.0123 to 0.0248
+"Equal fusion, no TTA minus Swin-V2-B, no TTA",Brier,0.0007,-0.0059 to 0.0066

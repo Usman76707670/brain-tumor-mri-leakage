@@ -1,0 +1,42 @@
+[seed 45 | 08:29:18] device cuda Tesla T4, torch 2.10.0+cu128, training ['convnext', 'resnet50', 'effb0']
+[seed 45 | 08:29:18] split train 2400 | val 222 | test 623
+[seed 45 | 08:30:06] convnext epoch 1/12 train_acc 0.8471 val_acc 0.9324 val_loss 0.5336
+[seed 45 | 08:30:54] convnext epoch 2/12 train_acc 0.9688 val_acc 0.9234 val_loss 0.5271
+[seed 45 | 08:31:42] convnext epoch 3/12 train_acc 0.9854 val_acc 0.9640 val_loss 0.4440
+[seed 45 | 08:32:30] convnext epoch 4/12 train_acc 0.9925 val_acc 0.9459 val_loss 0.4396
+[seed 45 | 08:33:17] convnext epoch 5/12 train_acc 0.9942 val_acc 0.9459 val_loss 0.4584
+[seed 45 | 08:34:05] convnext epoch 6/12 train_acc 0.9979 val_acc 0.9730 val_loss 0.4137
+[seed 45 | 08:34:53] convnext epoch 7/12 train_acc 0.9983 val_acc 0.9775 val_loss 0.4113
+[seed 45 | 08:35:41] convnext epoch 8/12 train_acc 0.9983 val_acc 0.9640 val_loss 0.4205
+[seed 45 | 08:36:29] convnext epoch 9/12 train_acc 1.0000 val_acc 0.9865 val_loss 0.3926
+[seed 45 | 08:37:17] convnext epoch 10/12 train_acc 0.9988 val_acc 0.9865 val_loss 0.3904
+[seed 45 | 08:38:05] convnext epoch 11/12 train_acc 1.0000 val_acc 0.9865 val_loss 0.3892
+[seed 45 | 08:38:53] convnext epoch 12/12 train_acc 1.0000 val_acc 0.9865 val_loss 0.3904
+[seed 45 | 08:38:53] convnext: kept epoch 9 (val_acc 0.9865)
+[seed 45 | 08:39:32] resnet50 epoch 1/12 train_acc 0.7850 val_acc 0.8559 val_loss 0.6307
+[seed 45 | 08:40:00] resnet50 epoch 2/12 train_acc 0.9337 val_acc 0.9505 val_loss 0.5104
+[seed 45 | 08:40:29] resnet50 epoch 3/12 train_acc 0.9692 val_acc 0.9414 val_loss 0.4645
+[seed 45 | 08:40:58] resnet50 epoch 4/12 train_acc 0.9762 val_acc 0.9730 val_loss 0.4399
+[seed 45 | 08:41:26] resnet50 epoch 5/12 train_acc 0.9862 val_acc 0.8964 val_loss 0.4954
+[seed 45 | 08:41:55] resnet50 epoch 6/12 train_acc 0.9938 val_acc 0.9279 val_loss 0.5186
+[seed 45 | 08:42:24] resnet50 epoch 7/12 train_acc 0.9950 val_acc 0.9685 val_loss 0.4497
+[seed 45 | 08:42:52] resnet50 epoch 8/12 train_acc 0.9979 val_acc 0.9414 val_loss 0.4664
+[seed 45 | 08:43:21] resnet50 epoch 9/12 train_acc 0.9975 val_acc 0.9595 val_loss 0.4640
+[seed 45 | 08:43:50] resnet50 epoch 10/12 train_acc 0.9962 val_acc 0.9595 val_loss 0.4593
+[seed 45 | 08:44:18] resnet50 epoch 11/12 train_acc 0.9988 val_acc 0.9640 val_loss 0.4477
+[seed 45 | 08:44:47] resnet50 epoch 12/12 train_acc 0.9988 val_acc 0.9550 val_loss 0.4428
+[seed 45 | 08:44:47] resnet50: kept epoch 4 (val_acc 0.9730)
+[seed 45 | 08:45:08] effb0 epoch 1/12 train_acc 0.7821 val_acc 0.8514 val_loss 0.6198
+[seed 45 | 08:45:23] effb0 epoch 2/12 train_acc 0.9192 val_acc 0.8694 val_loss 0.5912
+[seed 45 | 08:45:38] effb0 epoch 3/12 train_acc 0.9471 val_acc 0.9189 val_loss 0.5499
+[seed 45 | 08:45:53] effb0 epoch 4/12 train_acc 0.9617 val_acc 0.9279 val_loss 0.5316
+[seed 45 | 08:46:08] effb0 epoch 5/12 train_acc 0.9775 val_acc 0.8919 val_loss 0.5509
+[seed 45 | 08:46:24] effb0 epoch 6/12 train_acc 0.9808 val_acc 0.8919 val_loss 0.5357
+[seed 45 | 08:46:39] effb0 epoch 7/12 train_acc 0.9858 val_acc 0.9234 val_loss 0.4845
+[seed 45 | 08:46:54] effb0 epoch 8/12 train_acc 0.9900 val_acc 0.9189 val_loss 0.5035
+[seed 45 | 08:47:09] effb0 epoch 9/12 train_acc 0.9867 val_acc 0.9144 val_loss 0.4933
+[seed 45 | 08:47:24] effb0 epoch 10/12 train_acc 0.9912 val_acc 0.9234 val_loss 0.5008
+[seed 45 | 08:47:39] effb0 epoch 11/12 train_acc 0.9904 val_acc 0.9234 val_loss 0.4836
+[seed 45 | 08:47:54] effb0 epoch 12/12 train_acc 0.9954 val_acc 0.9144 val_loss 0.4898
+[seed 45 | 08:47:54] effb0: kept epoch 4 (val_acc 0.9279)
+[seed 45 | 08:47:58] DONE

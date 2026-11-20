@@ -1,0 +1,5 @@
+Hash threshold (bits),Linked pairs,Label-conflicting pairs,Groups with >1 image,Images in those groups,Largest group,Groups with mixed labels,Train / val / test,Test images with a train/val image within 5 bits,within 8 bits,within 12 bits
+0,692,2,305,740,10,1,2299 / 328 / 637,149,400,568
+3,922,9,372,935,10,3,2291 / 319 / 654,103,384,567
+5,1378,20,556,1453,10,9,2251 / 323 / 690,0,351,582
+8,4020,570,523,2598,625,34,2429 / 252 / 583,0,0,436

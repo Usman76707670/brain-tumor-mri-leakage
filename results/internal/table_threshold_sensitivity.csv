@@ -1,0 +1,5 @@
+Hash threshold (bits),Test images,ResNet101,Swin-V2-B,"Equal fusion, no TTA","Equal fusion, TTA",Images in those groups,Groups with mixed labels,Test images near train/val (<=5 bits),Test images near train/val (<=8 bits),Test images near train/val (<=12 bits)
+0,637,95.45,95.29,95.76,96.55,740,1,149,400,568
+3,654,94.04,96.64,96.64,96.64,935,3,103,384,567
+5,690,94.93,95.22,95.8,95.94,1453,9,0,351,582
+8,583,91.94,93.31,93.83,93.48,2598,34,0,0,436

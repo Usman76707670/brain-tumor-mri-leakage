@@ -1,0 +1,5 @@
+class,images,distinct_sizes,most_common_size,share_most_common,median_file_kb,grayscale_share,median_frame_mean
+Glioma,926,64,512x512,0.911,24.5,0.0,5.94024658203125
+Meningioma,937,129,512x512,0.725,24.3,0.0,9.154650688171387
+No Tumor,495,229,236x236,0.145,15.8,0.0,15.68890380859375
+Pituitary,887,32,512x512,0.901,32.4,0.0,17.603199005126953

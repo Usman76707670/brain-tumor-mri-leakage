@@ -1,0 +1,3 @@
+,ResNet101 vs randomized,Swin-V2-B vs randomized,ResNet101 vs Swin-V2-B
+mean,0.139,0.86,0.596
+std,0.232,0.158,0.134
