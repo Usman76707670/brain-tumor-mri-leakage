@@ -26,17 +26,18 @@ A classifier that sees only image size, file size and background statistics sepa
 | Folder | Contents |
 |---|---|
 | `code/train_seed.py` | Data loading, duplicate grouping, patient-aware split, models, training for one seed on one GPU |
-| `code/statistics.py` | Reproduces every confidence interval, paired comparison and control from `predictions/` (no GPU needed) |
+| `code/compute_statistics.py` | Reproduces every confidence interval, paired comparison and control from `predictions/` (no GPU needed) |
 | `notebooks/experiments.ipynb` | The full Kaggle notebook: Figshare patient matching, splits, training on two GPUs, analyses, Grad-CAM, timing, external screening, pixel verification |
 | `splits/` | Exact train/validation/test file lists. `split_patient.json` is the primary split; `split_grouped_t{0,3,5,8}.json` group near-duplicates only, at four hash thresholds |
-| `data/image_table_hash_groups_splits.csv` | For every image: label, original folder, 64-bit perceptual hash, group IDs at each threshold, inferred Figshare patient ID, split membership |
+| `data/image_table_hash_groups_splits.csv` | For every image: label, original folder, 64-bit perceptual hash, group IDs at each threshold, inferred Figshare patient ID, split membership, and `group_patient` (the group used by the patient-aware split; 715 groups, each inside one partition) |
 | `data/sartaj_all_to_figshare_pid.csv` | Nearest Figshare image, hash distance, patient ID and Figshare label for every Sartaj image |
 | `predictions/test_predictions_all_seeds.csv.gz` | Softmax outputs for every test image, model, seed and view (original and flipped) |
 | `predictions/external_*_probs.npz` | Outputs on the two screened candidate external datasets |
 | `results/internal/` | Ablations, paired tests, per-class metrics, calibration, screening intervals, thresholds, confounding, Grad-CAM checks, timing |
-| `results/statistics/` | Output of `code/statistics.py` |
+| `results/statistics/` | Output of `code/compute_statistics.py` |
 | `results/external_screening/` | Overlap, source and accuracy tables for BDNeuro-MRI and PMRAM |
 | `results/verification/` | Pixel-level checks of hash matches |
+| `results/figures/` | Manuscript figures built from released files (workflow, training curves, branch confusion matrices, ablation); redraw with `code/make_manuscript_figures.py` |
 | `config/` | Training configuration, timing protocol and the full package list of the Kaggle environment |
 | `logs/` | Per-epoch training logs and kept epochs for every seed |
 
@@ -79,7 +80,7 @@ The statistics need only this repository:
 
 ```
 pip install numpy pandas
-python code/statistics.py
+python code/compute_statistics.py
 ```
 
 Training and the image-level analyses need the datasets and a GPU. Open `notebooks/experiments.ipynb` on Kaggle, attach the Sartaj dataset (and BDNeuro-MRI and PMRAM for the external cells), select GPU T4 x2 with internet on, and run the cells in order. Paths in the split files point to the Kaggle mount of the Sartaj dataset; match on the last three path parts (`Training/glioma_tumor/gg (1).jpg`) if the dataset is mounted elsewhere.

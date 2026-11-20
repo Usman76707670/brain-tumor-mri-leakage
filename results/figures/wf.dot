@@ -1,0 +1,19 @@
+digraph G {
+rankdir=TB; nodesep=0.35; ranksep=0.35;
+node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12, color="#333333", fillcolor="#f5f7fb", penwidth=1.3];
+edge [color="#3a3a3a", arrowsize=0.8];
+d [label="Kaggle brain MRI dataset (Bhuvaji et al., 2020)\n3,264 images: glioma, meningioma, pituitary, no tumor"];
+p [label="Patient matching (tumor images)\n64-bit perceptual hash match (≤ 5 bits) to Figshare images with patient IDs\n2,350 matched images, 225 patients; 914 images without an ID", fillcolor="#fff4dc", color="#b8860b"];
+g [label="Grouping\nimages linked if same patient OR hash distance ≤ 5 bits\n19 images with conflicting labels excluded → 3,245 images in 715 groups", fillcolor="#fff4dc", color="#b8860b"];
+s [label="Stratified group split (70 / 10 / 20, seed 42)\ntrain 2,400  |  validation 222  |  test 623\nno patient shared between partitions; no test image within 5 bits of train/val", fillcolor="#fff4dc", color="#b8860b"];
+pre [label="Preprocessing\nresize 256x256, center crop 224x224, ImageNet normalization\ntraining only: horizontal flip (p = 0.5), rotation up to 10 degrees"];
+r [label="ResNet101 (modified head)\nlr 1e-4", fillcolor="#fbeaea", color="#b05050"];
+w [label="Swin-V2-B\nlr 5e-5", fillcolor="#e8effa", color="#4a72b8"];
+note [shape=note, style=filled, fillcolor=white, fontsize=10, label="12 epochs, AdamW, cosine schedule, label smoothing 0.1\nepoch kept by validation accuracy; four seeds (42 to 45)\ntest set never used for any choice"];
+f [label="Equal-weight fusion (single view, no TTA)\n0.5 x ResNet101 + 0.5 x Swin-V2-B softmax probabilities", fillcolor="#eee6f5", color="#7a5ca8"];
+o [label="Prediction: glioma / meningioma / pituitary / no tumor", fillcolor="#e7f2e7", color="#4a904a"];
+e [label="Evaluation on the test set, used once\npatient-cluster bootstrap CIs, paired differences, calibration, baselines,\nsource-confounding controls, Grad-CAM checks; near-duplicate and random splits for comparison"];
+d->p->g->s->pre; pre->r; pre->w; r->f; w->f; f->o->e;
+{rank=same; r; w; note}
+r->note [style=dashed, arrowhead=none]; 
+}

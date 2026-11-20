@@ -1,7 +1,7 @@
 """Reproduce the statistical analyses of the paper from the released per-image predictions.
 
 Usage (from the repository root):
-    python code/statistics.py
+    python code/compute_statistics.py
 
 Inputs:  predictions/test_predictions_all_seeds.csv.gz, splits/split_patient.json
 Outputs: results/statistics/*.csv
